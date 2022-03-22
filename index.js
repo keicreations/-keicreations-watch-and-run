@@ -1,6 +1,8 @@
-import chokidar from 'chokidar'
-import fs from 'fs'
-import { execSync } from 'child_process'
+#!/usr/bin/env node
+
+const chokidar = require('chokidar')
+const fs = require('fs')
+const { execSync } = require('child_process')
 
 let config = {}
 
