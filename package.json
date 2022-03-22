@@ -1,0 +1,17 @@
+{
+    "name": "@keicreations/watch-and-run",
+    "version": "0.0.1",
+    "author": "Alex Kramer <alex@keicreations.nl>",
+    "description": "Watches a specified folder for file changes. When a file changes, the command specified will be executed.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/keicreations/watch-and-run.git"
+    },
+    "type": "module",
+    "dependencies": {
+        "chokidar": "^3.5.3"
+    },
+    "bin": {
+        "watch": "./index.js"
+    }
+}
